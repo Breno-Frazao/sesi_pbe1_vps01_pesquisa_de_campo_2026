@@ -26,12 +26,11 @@ npm run dev
 
 
 ## Prints
-Ler tudo
+Ler tudo  
 <<<<<<< HEAD
 ![Ler tudo](/Prints/Lertudo.png)
 =======
 ![Ler tudo](/Lertudo.png)
->>>>>>> 102c600f85c47878ab46709fde6854d1e7df346b
 
 Procurar
 ![Procurar](/Prints/Procurar.png)
@@ -54,8 +53,6 @@ Cadastrado
 ![cadastrado](/Prints/Cadastrado.png)
 
 Resposta
-<<<<<<< HEAD
 ![Resposta](/Prints/Resposta.png)# sesi_pbe1_vps01_pesquisa_de_campo_2026
-=======
 ![Resposta](/Prints/Resposta.png)
->>>>>>> 102c600f85c47878ab46709fde6854d1e7df346b
+
