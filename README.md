@@ -27,9 +27,8 @@ npm run dev
 
 ## Prints
 Ler tudo  
-<<<<<<< HEAD
 ![Ler tudo](/Prints/Lertudo.png)
-=======
+
 ![Ler tudo](/Lertudo.png)
 
 Procurar
