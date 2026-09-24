@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "sistema": "Chatbot de atendimento",
+        "tipo": "empresa",
+        "finalidade": "Responder perguntas dos clientes",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 2,
+        "sistema": "Corretor de redação",
+        "tipo": "escola",
+        "finalidade": "Ajudar a corrigir textos",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 3,
+        "sistema": "Reconhecimento facial",
+        "tipo": "empresa",
+        "finalidade": "Controlar a entrada de funcionários",
+        "tecnologia": "Visão computacional",
+        "nivel_risco": "Alto",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 4,
+        "sistema": "Chatbot para estudos",
+        "tipo": "escola",
+        "finalidade": "Ajudar os alunos nas dúvidas",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": false
+    },
+    {
+        "id": 5,
+        "sistema": "Gerador de imagens",
+        "tipo": "pessoa",
+        "finalidade": "Criar imagens usando textos",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": false
+    },
+    {
+        "id": 6,
+        "sistema": "Registro de ponto",
+        "tipo": "escola",
+        "finalidade": "Registrar pontos de funcionarios",
+        "tecnologia": "Biometria",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    }
+]

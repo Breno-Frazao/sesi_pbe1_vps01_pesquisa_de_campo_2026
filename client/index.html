@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Banco de Usos de IA</title>
+</head>
+
+<body>
+
+    <h1>Banco de Usos de Inteligência Artificial</h1>
+
+    <h2>Cadastrar uso de IA</h2>
+
+    <form id="formulario">
+
+        <label>Sistema:</label>
+        <input type="text" id="sistema" required>
+
+        <br><br>
+
+        <label>Tipo:</label>
+        <select id="tipo">
+            <option value="empresa">Empresa</option>
+            <option value="escola">Escola</option>
+            <option value="pessoa">Pessoa</option>
+        </select>
+
+        <br><br>
+
+        <label>Finalidade:</label>
+        <input type="text" id="finalidade" required>
+
+        <br><br>
+
+        <label>Tecnologia:</label>
+        <input type="text" id="tecnologia" required>
+
+        <br><br>
+
+        <label>Nível de risco:</label>
+        <select id="nivel_risco">
+            <option value="Baixo">Baixo</option>
+            <option value="Médio">Médio</option>
+            <option value="Alto">Alto</option>
+        </select>
+
+        <br><br>
+
+        <label>
+            <input type="checkbox" id="possui_revisao_humana">
+            Possui revisão humana
+        </label>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+    <p id="mensagem"></p>
+
+    <script>
+
+        const formulario = document.getElementById("formulario");
+
+        formulario.addEventListener("submit", async function(evento) {
+
+            evento.preventDefault();
+
+            const dados = {
+                sistema: document.getElementById("sistema").value,
+                tipo: document.getElementById("tipo").value,
+                finalidade: document.getElementById("finalidade").value,
+                tecnologia: document.getElementById("tecnologia").value,
+                nivel_risco: document.getElementById("nivel_risco").value,
+                possui_revisao_humana:
+                    document.getElementById("possui_revisao_humana").checked
+            };
+
+            const resposta = await fetch("/usos", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(dados)
+            });
+
+            const resultado = await resposta.json();
+
+            document.getElementById("mensagem").innerHTML =
+                "Cadastrado com sucesso! ID: " + resultado.id;
+
+            formulario.reset();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
