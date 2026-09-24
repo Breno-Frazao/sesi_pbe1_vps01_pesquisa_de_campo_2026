@@ -27,7 +27,7 @@ npm run dev
 
 ## Prints
 Ler tudo
-![Ler tudo](/Prints/Lertudo.png)
+![Ler tudo](Lertudo.png)
 
 Procurar
 ![Procurar](/Prints/Procurar.png)
