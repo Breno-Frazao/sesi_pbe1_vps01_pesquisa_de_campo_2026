@@ -27,31 +27,29 @@ npm run dev
 
 ## Prints
 Ler tudo  
-![Ler tudo](/Prints/Lertudo.png)
-
-![Ler tudo](/Lertudo.png)
+![Ler tudo](./prints/ler%20tudo.png)
 
 Procurar
-![Procurar](/Prints/Procurar.png)
+![Procurar](./prints/procurar.png)
 
 Criar
-![Criar](/Prints/Criar.png)
+![Criar](./prints/criar.png)
 
 Atualizar
-![atualizar](/Prints/atualizar.png)
+![atualizar](./prints/atualizar.png)
 
 Excluir
-![Excluir](/Prints/Excluir.png)
+![Excluir](./prints/excluir.png)
 
 ## Banco de uso
 
 Cadastrar
-![Cadastrar](/Prints/Cadastrar.png)
+![Cadastrar](./prints/cadastrar.png)
 
 Cadastrado
-![cadastrado](/Prints/Cadastrado.png)
+![cadastrado](./prints/cadastrado.png)
 
 Resposta
-![Resposta](/Prints/Resposta.png)# sesi_pbe1_vps01_pesquisa_de_campo_2026
-![Resposta](/Prints/Resposta.png)
+![Resposta](./prints/resposta.png)# sesi_pbe1_vps01_pesquisa_de_campo_2026
+
 
